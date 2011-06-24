@@ -1,0 +1,9 @@
+{
+    "name": "naver_endic", 
+    "license": "MPL 1.1/GPL 2.0/LGPL 2.1", 
+    "author": "terzeron@naver.com", 
+    "version": "0.1", 
+    "fullName": "Naver English Dictionary (네이버 영어 사전)", 
+    "id": "jid1-Kk9XpUpEWNFRMQ", 
+    "description": "This is an extension to look up the selected text in Naver dictionary service, http://endic.naver.com (네이버 영어 사전 서비스를 이용한 사전 검색 확장기능)"
+}
