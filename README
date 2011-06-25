@@ -1,0 +1,16 @@
+'Naver English Dictionary' Firefox Extension
+네이버 영어사전 검색 Firefox 확장기능
+
+사용방법
+1. 영어사전 검색을 원하는 단어를 마우스로 지정하여 반전시킨다.
+2. 마우스 우클릭으로 컨텍스트 메뉴를 활성화시키고 메뉴 하단에 위치한 "네이버 영어사전 검색"을 클릭한다.
+3. 브라우저 화면 좌상단에 영어사전 영역이 렌더링된다.
+4. 사전 내용을 조회하고 마우스를 영어사전 영역에서 벗어나게 위치시키면 영역이 사라진다.
+
+For developers
+1. This extension is developed by 'JetPack' SDK 1.0b5.
+   - Not available by SDK 1.0 yet
+2. You can edit 'lib/main.js' and 'lib/naver_endic.js'.
+
+- http://www.terzeron.net/wiki/doku.php?id=%EB%84%A4%EC%9D%B4%EB%B2%84_%EC%98%81%EC%96%B4%EC%82%AC%EC%A0%84_%EA%B2%80%EC%83%89_%ED%99%95%EC%9E%A5%EA%B8%B0%EB%8A%A5
+- https://addons.mozilla.org/ko/firefox/addon/naver-english-dictionary/
