@@ -20,7 +20,7 @@ exports.main = function(options, callbacks) {
 			'  divElement.setAttribute("style", "z-index: 999; left: 50px; top: 50px; position: fixed; border: 1px solid black; display: block;");' +
 			'  divElement.setAttribute("onmouseout", "this.parentNode.removeChild(this); /*this.style.visibility=\'hidden\';*/");' +
 			'  divElement.innerHTML = "<iframe width=\'340\' height=\'480\' allowTransparency=\'true\' style=\'border: 0px; filter:Alpha(Opacity=10);\' scrolling=\'auto\' src=\'" + url + "\'></iframe>";' +
-			'  node.appendChild(divElement);' + 
+			'  document.body.appendChild(divElement);' + 
             '});',
 	});
 };
