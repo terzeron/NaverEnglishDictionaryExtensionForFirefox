@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8" />
+<style>
+body { 
+	background-color: white; 
+	font-size: 12px; 
+	color: black; 
+}
+div.container {
+    margin: 5px 5px 5px 5px;
+}
+div.block {
+    margin: 5px 5px 5px 5px;
+    border-bottom: 1px dotted #eeeeee;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+<div class="block">
+<span>
+검색창 크기: 
+너비<input type="text" name="windowWidth" value="400" size="4"/> x 높이<input type="text" name="windowHeight" value="400" size="4"/>
+</span>
+</div>
+<div class="block">
+<span>
+타입: 
+<input type="radio" name="searchType" value="pc" checked />PC버전 
+<input type="radio" name="searchType" value="mobile" />모바일버전
+</span>
+</div>
+<div class="block">
+<span>
+더블클릭 키 조합:
+<input type="radio" name="comboKey" value="Ctrl" />Ctrl
+<input type="radio" name="comboKey" value="Alt" checked />Alt
+<input type="radio" name="comboKey" value="Shift" />Shift
+<input type="radio" name="comboKey" value="Meta" />Cmd
+</span>
+</div>
+<div class="block" id="notice">
+알림! 컨텍스트 메뉴를 이용해 검색하는 경우와 달리, 더블클릭을 이용해 검색하는 경우에는 설정 변경 시 브라우저 재시작이 필요합니다.
+</div>
+</div>
+</body>
+</html>
